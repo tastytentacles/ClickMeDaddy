@@ -1,6 +1,12 @@
-[gd_scene load_steps=2 format=2]
+[gd_scene load_steps=4 format=2]
 
 [ext_resource path="res://SRC/UpdateBarBasic.cs" type="Script" id=1]
+[ext_resource path="res://ImportedAssets/Datdot/DatDot-Regular.otf" type="DynamicFontData" id=2]
+
+[sub_resource type="DynamicFont" id=1]
+size = 64
+use_filter = true
+font_data = ExtResource( 2 )
 
 [node name="Panel" type="Panel"]
 margin_right = 313.0
@@ -25,10 +31,16 @@ __meta__ = {
 }
 
 [node name="Label" type="Label" parent="."]
-margin_left = 6.30672
-margin_top = 5.04538
-margin_right = 46.3067
-margin_bottom = 19.0454
+anchor_left = 0.016
+anchor_top = -0.088
+anchor_right = 0.575
+anchor_bottom = 1.068
+margin_left = 0.0387754
+margin_top = -0.03194
+margin_right = 0.0717621
+margin_bottom = -0.0159454
+custom_fonts/font = SubResource( 1 )
+custom_colors/font_color = Color( 0.105882, 0.105882, 0.105882, 1 )
 text = "Count"
 __meta__ = {
 "_edit_use_anchors_": false
