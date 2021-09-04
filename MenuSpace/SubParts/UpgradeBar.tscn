@@ -8,7 +8,9 @@ size = 64
 use_filter = true
 font_data = ExtResource( 2 )
 
-[node name="Panel" type="Panel"]
+[node name="Panel" type="Panel" groups=[
+"Timer",
+]]
 margin_right = 313.0
 margin_bottom = 64.0
 rect_min_size = Vector2( 0, 64 )
@@ -45,3 +47,5 @@ text = "Count"
 __meta__ = {
 "_edit_use_anchors_": false
 }
+
+[node name="Timer" type="Timer" parent="."]

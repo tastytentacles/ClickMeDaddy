@@ -107,7 +107,7 @@ __meta__ = {
 
 [node name="vbox" type="VBoxContainer" parent="menu_stack/timer_pain/ScrollContainer"]
 margin_right = 325.0
-margin_bottom = 404.0
+margin_bottom = 200.0
 size_flags_horizontal = 3
 __meta__ = {
 "_edit_use_anchors_": false
@@ -123,31 +123,23 @@ cost_scale = 1.5
 margin_top = 68.0
 margin_right = 325.0
 margin_bottom = 132.0
-unlock_cost = 10.0
+type = "bee factory"
+cost_base = 25.0
+cost_scale = 0.75
+cycle_time = 15.0
+cycle_profit = 50.0
+unlock_cost = 100.0
 
 [node name="Panel3" parent="menu_stack/timer_pain/ScrollContainer/vbox" instance=ExtResource( 2 )]
 margin_top = 136.0
 margin_right = 325.0
 margin_bottom = 200.0
-unlock_cost = 20.0
-
-[node name="Panel4" parent="menu_stack/timer_pain/ScrollContainer/vbox" instance=ExtResource( 2 )]
-margin_top = 204.0
-margin_right = 325.0
-margin_bottom = 268.0
-unlock_cost = 30.0
-
-[node name="Panel5" parent="menu_stack/timer_pain/ScrollContainer/vbox" instance=ExtResource( 2 )]
-margin_top = 272.0
-margin_right = 325.0
-margin_bottom = 336.0
-unlock_cost = 40.0
-
-[node name="Panel6" parent="menu_stack/timer_pain/ScrollContainer/vbox" instance=ExtResource( 2 )]
-margin_top = 340.0
-margin_right = 325.0
-margin_bottom = 404.0
-unlock_cost = 50.0
+type = "bee city"
+cost_base = 100.0
+cost_scale = 2.0
+cycle_time = 40.0
+cycle_profit = 45.0
+unlock_cost = 1000.0
 
 [node name="trading_pain" type="Panel" parent="menu_stack"]
 margin_left = 682.0
