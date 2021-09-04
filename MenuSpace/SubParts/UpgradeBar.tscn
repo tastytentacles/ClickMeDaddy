@@ -1,0 +1,35 @@
+[gd_scene load_steps=2 format=2]
+
+[ext_resource path="res://SRC/UpdateBarBasic.cs" type="Script" id=1]
+
+[node name="Panel" type="Panel"]
+margin_right = 313.0
+margin_bottom = 64.0
+rect_min_size = Vector2( 0, 64 )
+script = ExtResource( 1 )
+__meta__ = {
+"_edit_use_anchors_": false
+}
+type = "base"
+
+[node name="Button" type="Button" parent="."]
+anchor_right = 1.0
+anchor_bottom = 1.0
+margin_left = 258.155
+margin_top = 8.40897
+margin_right = -6.84473
+margin_bottom = -7.59103
+text = "+"
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="Label" type="Label" parent="."]
+margin_left = 6.30672
+margin_top = 5.04538
+margin_right = 46.3067
+margin_bottom = 19.0454
+text = "Count"
+__meta__ = {
+"_edit_use_anchors_": false
+}
