@@ -2,7 +2,6 @@ using Godot;
 using System;
 
 public class UpdateBarBasic : Panel {
-    //TODO most of the function of this class, ATM I am just playing with tool tips.
     //TODO graphical representation of the thing in the timer doing a little animation of some kind.
     [Export] String type = "none";
     [Export] float cost_base = 1;

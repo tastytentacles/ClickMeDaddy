@@ -13,3 +13,6 @@ margin_top = 260.804
 margin_right = 591.593
 margin_bottom = 274.804
 text = "real organic bee simulator"
+__meta__ = {
+"_edit_use_anchors_": false
+}
