@@ -3,6 +3,10 @@ using System;
 
 public class UpdateBarBasic : Panel {
     //TODO graphical representation of the thing in the timer doing a little animation of some kind.
+    //TODO loading bar
+    //TODO tool tip info about production
+    //TODO tool tip flavor text
+    
     [Export] String type = "none";
     [Export] float cost_base = 1;
     [Export] float cost_scale = .5f;

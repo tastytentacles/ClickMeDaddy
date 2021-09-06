@@ -2,6 +2,13 @@ using Godot;
 using System;
 
 public class GameOverMind : Control {
+    //FIXME honey sometimes needs rounding, explicable .999997.
+
+    //TODO trading screen
+    //TODO tool tips need more detail
+    //TODO background styling
+    //TODO partical effects
+    //TODO sound
     public float honey = 0;
     
     private TextureButton button;
