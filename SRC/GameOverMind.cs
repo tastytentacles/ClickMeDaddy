@@ -38,7 +38,7 @@ public class GameOverMind : Control {
     }
 
     public override void _Process(float delta) {
-        honey_count.Text = honey + " Drams of Honey";
-        persec_count.Text = persec_calc() + " Drams per second";
+        honey_count.Text =  "Honey\n" + honey.ToString("0.0");
+        persec_count.Text = "Honey per second\n" + persec_calc().ToString("0.0");
     }
 }

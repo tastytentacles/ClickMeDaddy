@@ -10,7 +10,7 @@ config_version=4
 
 [application]
 
-config/name="Click Me Daddy"
+config/name="honey clicker"
 run/main_scene="res://MenuSpace/GameScreen.tscn"
 config/icon="res://icon.png"
 

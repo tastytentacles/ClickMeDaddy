@@ -1,12 +1,19 @@
-[gd_scene load_steps=4 format=2]
+[gd_scene load_steps=9 format=2]
 
 [ext_resource path="res://SRC/UpdateBarBasic.cs" type="Script" id=1]
 [ext_resource path="res://ImportedAssets/Datdot/DatDot-Regular.otf" type="DynamicFontData" id=2]
+[ext_resource path="res://ImportedAssets/PlayerSansMono/PlayerSansMono8x8-Italic.ttf" type="DynamicFontData" id=3]
+[ext_resource path="res://Theming/button_up.tres" type="StyleBox" id=4]
+[ext_resource path="res://Theming/button_down.tres" type="StyleBox" id=5]
+[ext_resource path="res://Theming/button_hover.tres" type="StyleBox" id=6]
 
 [sub_resource type="DynamicFont" id=1]
 size = 64
 use_filter = true
 font_data = ExtResource( 2 )
+
+[sub_resource type="DynamicFont" id=2]
+font_data = ExtResource( 3 )
 
 [node name="Panel" type="Panel" groups=[
 "Timer",
@@ -20,15 +27,28 @@ __meta__ = {
 }
 type = "base"
 
+[node name="bar" type="ColorRect" parent="."]
+anchor_right = 1.0
+anchor_bottom = 1.0
+color = Color( 0.909804, 0.788235, 0.141176, 0.243137 )
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
 [node name="Button" type="Button" parent="."]
-anchor_left = 0.825
-anchor_top = 0.131
-anchor_right = 0.978
-anchor_bottom = 0.881
-margin_left = -0.0700073
-margin_top = 0.0249691
-margin_right = 0.0412598
-margin_bottom = 0.0249672
+anchor_left = 0.979
+anchor_top = 0.109
+anchor_right = 0.979
+anchor_bottom = 0.422
+margin_left = -20.0065
+margin_top = 0.0239997
+margin_right = -0.00653076
+margin_bottom = -0.00800133
+focus_mode = 0
+custom_styles/hover = ExtResource( 6 )
+custom_styles/pressed = ExtResource( 5 )
+custom_styles/normal = ExtResource( 4 )
+enabled_focus_mode = 0
 text = "+"
 __meta__ = {
 "_edit_use_anchors_": false
@@ -50,4 +70,24 @@ __meta__ = {
 "_edit_use_anchors_": false
 }
 
+[node name="Label2" type="Label" parent="."]
+anchor_left = 0.022
+anchor_top = 0.656
+anchor_right = 0.974
+anchor_bottom = 0.875
+margin_left = 0.113999
+margin_top = 0.0159988
+margin_right = 0.138
+margin_bottom = 2.0
+custom_fonts/font = SubResource( 2 )
+text = "name"
+align = 2
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
 [node name="Timer" type="Timer" parent="."]
+
+[node name="Tween" type="Tween" parent="."]
+repeat = true
+playback/repeat = true

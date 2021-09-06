@@ -1,0 +1,19 @@
+﻿Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2012
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "honey clicker", "honey clicker.csproj", "{843A4B05-D36D-4450-858B-FA36FB2A2ADC}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+	Debug|Any CPU = Debug|Any CPU
+	ExportDebug|Any CPU = ExportDebug|Any CPU
+	ExportRelease|Any CPU = ExportRelease|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{843A4B05-D36D-4450-858B-FA36FB2A2ADC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{843A4B05-D36D-4450-858B-FA36FB2A2ADC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{843A4B05-D36D-4450-858B-FA36FB2A2ADC}.ExportDebug|Any CPU.ActiveCfg = ExportDebug|Any CPU
+		{843A4B05-D36D-4450-858B-FA36FB2A2ADC}.ExportDebug|Any CPU.Build.0 = ExportDebug|Any CPU
+		{843A4B05-D36D-4450-858B-FA36FB2A2ADC}.ExportRelease|Any CPU.ActiveCfg = ExportRelease|Any CPU
+		{843A4B05-D36D-4450-858B-FA36FB2A2ADC}.ExportRelease|Any CPU.Build.0 = ExportRelease|Any CPU
+	EndGlobalSection
+EndGlobal
